@@ -1,0 +1,12 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <!-- Add the missing colors -->
+    <color name="iconColor">#FF0000</color> <!-- Example color, replace with your desired color -->
+    <color name="textColor">#000000</color> <!-- Example color, replace with your desired color -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="endColor">#FF5733</color>
+    <color name="startColor">#FFB433</color>
+</resources>
