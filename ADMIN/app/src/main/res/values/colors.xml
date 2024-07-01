@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#53E88B</color>
+    <color name="startColor">#FF5733</color> <!-- Replace with your desired color value -->
+    <color name="endColor">#C70039</color>
+    <color name="iconColor">#FF0000</color>
 </resources>
