@@ -164,7 +164,7 @@
         android:layout_width="157dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/greenbuttongradient"
+        android:background="@drawable/addtocartshape"
         android:fontFamily="@font/yeonsung_regular"
         android:outlineSpotShadowColor="@color/textColor"
         android:text="Create Account"
