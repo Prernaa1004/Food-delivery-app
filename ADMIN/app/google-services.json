@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450157096192",
+    "project_id": "mealmingle-b4246",
+    "storage_bucket": "mealmingle-b4246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450157096192:android:c3407c042e71587b3f17e5",
+        "android_client_info": {
+          "package_name": "com.example.adminzomato_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBukk-P6oBuMXsc2ppYWGMBF-SlE_1DCSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
