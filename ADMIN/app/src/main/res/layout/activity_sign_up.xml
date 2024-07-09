@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/yeonsung_regular"
         android:text="XOXO"
-        android:textColor="@color/black"
+        android:textColor="@color/textColor"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         android:fontFamily="@font/lato_bold"
         android:text="Sign Up Here For Your \nAdmin Dashboard"
         android:textAlignment="center"
-        android:textColor="@color/textColor"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/yeonsung_regular"
         android:text="Choose Your Location"
-        android:textColor="@color/textColor"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout" />
 
@@ -119,7 +119,7 @@
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <EditText
-        android:id="@+id/EmailOrPhone"
+        android:id="@+id/emailOrPhone"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -155,12 +155,12 @@
         android:inputType="textPassword"
         android:outlineSpotShadowColor="@color/textColor"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/EmailOrPhone"
-        app:layout_constraintStart_toStartOf="@+id/EmailOrPhone"
-        app:layout_constraintTop_toBottomOf="@+id/EmailOrPhone" />
+        app:layout_constraintEnd_toEndOf="@+id/emailOrPhone"
+        app:layout_constraintStart_toStartOf="@+id/emailOrPhone"
+        app:layout_constraintTop_toBottomOf="@+id/emailOrPhone" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/createButton"
+        android:id="@+id/createUserButton"
         android:layout_width="157dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -183,10 +183,10 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/lato_bold"
         android:text="Already Have Account?"
-        android:textColor="@color/textColor"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createButton" />
+        app:layout_constraintTop_toBottomOf="@+id/createUserButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
         android:fontFamily="@font/yeonsung_regular"
         android:text="Designed By \nXOXO"
         android:textAlignment="center"
-        android:textColor="@color/textColor"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
