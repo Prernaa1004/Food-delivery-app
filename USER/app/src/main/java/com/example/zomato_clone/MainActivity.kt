@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         binding.notificationButton.setOnClickListener{
-            val bottomSheetDialog = Notificaiton_Bottom_Fragment()
+            val bottomSheetDialog = Notification_Bottom_Fragment()
             bottomSheetDialog.show(supportFragmentManager, "Test")
         }
     }
