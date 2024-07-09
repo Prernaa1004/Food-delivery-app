@@ -26,6 +26,27 @@
 <!--        </activity>-->
         <activity
             android:name=".ChooseLocationActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".cart_item"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_cart"
+            android:exported="false" />
+        <activity
+            android:name=".admin_add_file"
+            android:exported="false" />
+        <activity
+            android:name=".add_file"
+            android:exported="false" />
+        <activity
+            android:name=".history_fragment"
+            android:exported="false" />
+        <activity
+            android:name=".start_activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screens"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
