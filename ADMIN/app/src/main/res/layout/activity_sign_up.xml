@@ -76,6 +76,13 @@
             android:fontFamily="@font/lato_regular"
             android:inputType="none"
             android:text="Choose Location" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Switch" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -188,18 +195,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createButton" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:fontFamily="@font/yeonsung_regular"
-        android:text="Designed By \nXOXO"
-        android:textAlignment="center"
-        android:textColor="@color/textColor"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
