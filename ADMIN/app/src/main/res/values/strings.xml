@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AdminZomato_Clone</string>
+    <string name="create_new_user_admin">Create New User Admin</string>
 </resources>

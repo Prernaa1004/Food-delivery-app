@@ -5,6 +5,36 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_create_user.xml">
+        <config>
+          <theme>@style/Theme.AdminZomato_Clone</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/Theme.AdminZomato_Clone</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.AdminZomato_Clone</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_sign_up.xml">
+        <config>
+          <theme>@style/Theme.AdminZomato_Clone</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_splash_screen.xml">
+        <config>
+          <theme>@style/Theme.AdminZomato_Clone</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/USER/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ZomatoClone</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/USER/app/src/main/res/layout/cart_item.xml">
         <config>
           <theme>@style/Theme.ZomatoClone</theme>
@@ -15,19 +45,25 @@
           <theme>@style/Theme.ZomatoClone</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/USER/app/src/main/res/layout/fragment_notification_bottom_.xml">
+        <config>
+          <theme>@style/Theme.ZomatoClone</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e407be-d655-485f-aeae-7d76c898d861" name="Changes" comment="notification feature page">
-      <change afterPath="$PROJECT_DIR$/USER/app/src/main/java/com/example/zomato_clone/adapter/CartAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USER/app/src/main/res/layout/cart_item.xml" afterDir="false" />
+    <list default="true" id="b2e407be-d655-485f-aeae-7d76c898d861" name="Changes" comment="User part commit by Baivabb">
+      <change afterPath="$PROJECT_DIR$/ADMIN/app/src/main/java/com/example/adminzomato_clone/CreateUserActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_create_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USER/app/src/main/java/com/example/zomato_clone/Fragment/CartFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/USER/app/src/main/java/com/example/zomato_clone/Fragment/CartFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USER/app/src/main/res/layout/fragment_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/USER/app/src/main/res/layout/fragment_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USER/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/USER/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADMIN/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ADMIN/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ADMIN/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADMIN/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ADMIN/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +76,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Dbaiv\.android\avd\Pixel_3a_API_34.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ADMIN">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/USER">
@@ -73,6 +112,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -100,34 +140,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.ChooseLocationActivity.executor": "Run",
-    "Android App.MainActivity.executor": "Run",
-    "Android App.app.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dbaiv/AndroidStudioProjects/zomato-clone/USER/build.gradle.kts",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.google.gct.login2.settings.GoogleLoginApplicationSettingsConfigurableProvider"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.ChooseLocationActivity.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.MainActivity.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dbaiv/AndroidStudioProjects/zomato-clone/ADMIN/settings.gradle.kts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.google.gct.login2.settings.GoogleLoginApplicationSettingsConfigurableProvider&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\Dbaiv\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\Dbaiv\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="android.template.-520826449">
+      <recent name="com.example.adminzomato_clone" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HUSTLES\VIT_AppDevelopment\PROJECTS\zomato-clone\app\src\main\res\font" />
       <recent name="D:\HUSTLES\VIT_AppDevelopment\PROJECTS\zomato-clone\app\src\main\res\drawable" />
@@ -140,7 +183,73 @@
       <recent name="com.example.zomato_clone.Fragment" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.MainActivity">
+  <component name="RunManager" selected="Android App.AdminZomato_Clone.app">
+    <configuration name="AdminZomato_Clone.app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="AdminZomato_Clone.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChooseLocationActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
       <module name="Zomato-Clone.app.main" />
       <option name="DEPLOY" value="true" />
@@ -396,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719835537231</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="User part commit by Baivabb">
+      <option name="closed" value="true" />
+      <created>1720520496513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720520496513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,6 +545,7 @@
     <MESSAGE value="fragments" />
     <MESSAGE value="profile page" />
     <MESSAGE value="notification feature page" />
-    <option name="LAST_COMMIT_MESSAGE" value="notification feature page" />
+    <MESSAGE value="User part commit by Baivabb" />
+    <option name="LAST_COMMIT_MESSAGE" value="User part commit by Baivabb" />
   </component>
 </project>
