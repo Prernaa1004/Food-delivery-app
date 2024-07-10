@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AdminZomato_Clone</string>
     <string name="create_new_user_admin">Create New User Admin</string>
+    <string name="name_customer">Name Customer</string>
+    <string name="accept">Accept</string>
+    <string name="_8">8</string>
+    <string name="orders_pending">Orders Pending</string>
 </resources>
