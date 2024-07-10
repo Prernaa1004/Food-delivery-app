@@ -12,20 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZomatoClone"
         tools:targetApi="31">
-<!--        <activity-->
-<!--            android:name=".ChooseLocationActivity"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".MainActivity"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".detailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PayOutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
         <activity
             android:name=".ChooseLocationActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".cart_item"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_cart"
+            android:exported="false" />
+        <activity
+            android:name=".admin_add_file"
+            android:exported="false" />
+        <activity
+            android:name=".add_file"
+            android:exported="false" />
+        <activity
+            android:name=".history_fragment"
+            android:exported="false" />
+        <activity
+            android:name=".start_activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screens"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
